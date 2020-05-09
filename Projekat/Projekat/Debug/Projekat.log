@@ -1,0 +1,44 @@
+﻿Build started 2020-05-09 8:19:22 PM.
+     1>Project "C:\Users\JH13\Desktop\Vježba\Projekat\Projekat\Projekat.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\MySQL\MySQL Connector Net 5.0.9\Binaries\.NET 2.0\MySql.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Forma1.cpp Forma10.cpp Forma4.cpp
+         Forma1.cpp
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma3.h(342): warning C4101: 'myReader1' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma3.h(339): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma2.h(102): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma10.h(262): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma4.h(87): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma5.h(134): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma5.h(175): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma8.h(157): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma8.h(201): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma1.h(10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>Forma1.cpp(7): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+         Forma10.cpp
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma10.h(262): warning C4101: 'myReader' : unreferenced local variable
+         Forma4.cpp
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma10.h(262): warning C4101: 'myReader' : unreferenced local variable
+     1>c:\users\jh13\desktop\vježba\projekat\projekat\Forma4.h(87): warning C4101: 'myReader' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JH13\Desktop\Vježba\Projekat\Debug\Projekat.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Projekat.F.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma1.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma10.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma11.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma12.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma13.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma2.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma3.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma4.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma5.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma6.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma7.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma8.resources /ASSEMBLYRESOURCE:Debug\Projekat.Forma9.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JH13\Desktop\Vježba\Projekat\Debug\Projekat.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\F.obj
+         Debug\Forma1.obj
+         Debug\Forma10.obj
+         Debug\Forma11.obj
+         Debug\Forma12.obj
+         Debug\Forma13.obj
+         Debug\Forma2.obj
+         Debug\Forma3.obj
+         Debug\Forma4.obj
+         Debug\Forma5.obj
+         Debug\Forma6.obj
+         Debug\Forma7.obj
+         Debug\Forma8.obj
+         Debug\Forma9.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Projekat.vcxproj -> C:\Users\JH13\Desktop\Vježba\Projekat\Debug\Projekat.exe
+     1>Done Building Project "C:\Users\JH13\Desktop\Vježba\Projekat\Projekat\Projekat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:36.22

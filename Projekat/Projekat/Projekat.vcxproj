@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8BB79932-4F83-4186-AB65-FE49E8358DEC}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Projekat</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\..\Program Files\MySQL\MySQL Connector Net 5.0.9\Binaries\.NET 2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F.cpp" />
+    <ClCompile Include="Forma1.cpp" />
+    <ClCompile Include="Forma10.cpp" />
+    <ClCompile Include="Forma11.cpp" />
+    <ClCompile Include="Forma12.cpp" />
+    <ClCompile Include="Forma13.cpp" />
+    <ClCompile Include="Forma2.cpp" />
+    <ClCompile Include="Forma3.cpp" />
+    <ClCompile Include="Forma4.cpp" />
+    <ClCompile Include="Forma5.cpp" />
+    <ClCompile Include="Forma6.cpp" />
+    <ClCompile Include="Forma7.cpp" />
+    <ClCompile Include="Forma8.cpp" />
+    <ClCompile Include="Forma9.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma10.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma11.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma12.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma13.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma6.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma7.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma8.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forma9.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="F.resx">
+      <DependentUpon>F.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma1.resx">
+      <DependentUpon>Forma1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma10.resx">
+      <DependentUpon>Forma10.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma11.resx">
+      <DependentUpon>Forma11.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma12.resx">
+      <DependentUpon>Forma12.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma13.resx">
+      <DependentUpon>Forma13.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma2.resx">
+      <DependentUpon>Forma2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma3.resx">
+      <DependentUpon>Forma3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma4.resx">
+      <DependentUpon>Forma4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma5.resx">
+      <DependentUpon>Forma5.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma6.resx">
+      <DependentUpon>Forma6.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma7.resx">
+      <DependentUpon>Forma7.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma8.resx">
+      <DependentUpon>Forma8.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma9.resx">
+      <DependentUpon>Forma9.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
